@@ -10,6 +10,7 @@
 
 // connect to db
 $conn = new  PDO('mysql:host=localhost;dbname=gcfreeman1','root','');
+$conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);//help with debugging problem
 //write on  sql query to select the album title
 $spl ="SELECT title FROM albums";
 //execute the query and store the result
