@@ -5,6 +5,7 @@
     <title>saving album</title>
 </head>
 <body>
+    <h1>Music</h1>
   <?php
 $title = $_post['title'];
 $year = $_post['title'];
