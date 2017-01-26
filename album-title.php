@@ -19,7 +19,7 @@ $albums = $cmd->fetchAll();
 // loop through the data
 foreach ($albums as $album) {
 // display the title using echo
-    echo $album['title'];
+    echo $album['title'], '<br/>';
 }
 
 //disconnect
